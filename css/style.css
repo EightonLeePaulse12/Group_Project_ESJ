@@ -1,0 +1,107 @@
+@import url('https://fonts.cdnfonts.com/css/south-park');
+
+*{
+    font-family: 'South Park', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: rgb(241, 241, 160);
+}
+
+.topofpage{
+    width:100vw;
+    margin:0 0;
+    padding:0 0;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    background-color: #aa061f;
+}
+
+.picoferic{
+    height:150px;
+}
+
+.topItems>a{
+    text-decoration:none;
+    color:black;
+    margin: 55px 55px;
+    font-weight:bold;
+    font-size:25px;
+}
+
+.topItems>a:hover{
+    border:24px solid black;
+    color:#aa061f;
+    background-color: black;
+
+}
+
+.butters-part{
+    background-color:rgba(0,0,0,255);
+    margin:0;
+    width:100vw;
+    padding:0;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.butters-section{
+    width:300px;
+    margin-left:50px;
+    height:300px;
+}
+
+.butters{
+    color:white;
+    text-align: center;
+    text-decoration: underline;
+    font-weight:bolder;
+    font-size:35px;
+    margin-top:20px
+}
+
+.random{
+    color:white;
+    margin-top:60px;
+    font-size: 28px;
+}
+
+.jointimage{
+    display:flex;
+}
+
+.imageofkyle{
+    margin:0;
+    padding:0;
+    width:400px;
+    height:300px
+}
+
+.footerdiv{
+    background-color: rgba(80,199,0,255);
+    width:100vw;
+    display:flex;
+}
+
+
+.finallist>a{
+    text-decoration: none;
+    color:black;
+    text-align:left;
+    margin:30px;
+    text-align: center;
+    margin-left:100px;
+    margin-top:200px;
+}
+
+.finallist>a:hover{
+    border:24px solid black;
+    color:rgba(80,199,0,255);
+    background-color: black;
+}
+
